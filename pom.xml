@@ -52,10 +52,17 @@
     </mailingList>
   </mailingLists>
 
+    <distributionManagement>
+        <repository>
+            <id>forge-releases</id>
+            <url>https://repository.sonatype.org/service/local/staging/deploy/maven2</url>
+        </repository>
+    </distributionManagement>
+
   <scm>
     <url>git@github.com:carrotsearch/junit-benchmarks.git</url>
     <connection>scm:git:git@github.com:carrotsearch/junit-benchmarks.git</connection>
-    <developerConnection>scm:git:git@github.com:carrotsearch/junit-benchmarks.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:sonatype/junit-benchmarks.git</developerConnection>
   </scm>
 
   <developers>
